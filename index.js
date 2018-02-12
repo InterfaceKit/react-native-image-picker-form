@@ -1,5 +1,5 @@
 /* @flow */
 
-import Stepper from './lib/Stepper'
+import ImageFactory from './lib/ImageFactory'
 
-export default Stepper
+export default ImageFactory
