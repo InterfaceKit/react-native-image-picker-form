@@ -1,6 +1,6 @@
 {
   "name": "react-native-image-picker-form",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description":
     "A React Native component factory to use with tcomb-form-native. Currently using react-native-image-crop-picker to provide image selection.",
   "author": "Antonio Moreno Valls <amoreno@apsl.net>",
