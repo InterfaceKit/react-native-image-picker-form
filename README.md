@@ -7,10 +7,9 @@
 
 A React Native component factory to use with [`tcomb-form-native`](https://github.com/gcanti/tcomb-form-native) library. Currently using [`react-native-image-crop-picker`](https://github.com/ivpusic/react-native-image-crop-picker) to provide image selection.
 
-At the moment only supported iOS platform.
-
 <p align="center">
-<img src="./example.gif" alt="Image factory" width="400">
+<img src="./ios.gif" alt="Image factory" width="442">
+<img src="./android.gif" alt="Image factory">
 </p>
 
 ## Getting started
@@ -24,9 +23,9 @@ After that, follow the instructions on: https://github.com/ivpusic/react-native-
 ## Usage
 
 When configuring your `tcomb-form-native` form, use the `factory` option to set as `SelectImageFactory`.
-You can change the text displayed on ActionSheet setting a options value or change the title with title option on `config`.
+You can change the text displayed on ActionSheet or BottomSheet setting a options value or change the title with title option on `config`.
 
-Default locale is `en-US`
+Default locale is `en-US`:
 
 ```js
 import React from 'react-native'
@@ -55,6 +54,10 @@ class App extends React.Component<Props, State> {
             config: {
               title: 'Select image',
               options: ['Open camera', 'Select from gallery', 'Cancel']
+              // Used on Android to style BottomSheet
+              style: {
+                titleFontFamily: 'Roboto'
+              }
             },
             error: 'No image provided',
             factory: ImageFactory

@@ -21,9 +21,10 @@
     "ios",
     "image",
     "image-picker",
-    "form"
+    "form",
+    "android"
   ],
-  "keywords": ["react", "react-native", "react-component", "ios"],
+  "keywords": ["react", "react-native", "react-component", "ios", "android"],
   "scripts": {
     "prettier":
       "prettier --single-quote --print-width 81 --write index.js lib/Stepper.js",
