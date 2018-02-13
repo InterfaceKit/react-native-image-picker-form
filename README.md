@@ -8,8 +8,8 @@
 A React Native component factory to use with [`tcomb-form-native`](https://github.com/gcanti/tcomb-form-native) library. Currently using [`react-native-image-crop-picker`](https://github.com/ivpusic/react-native-image-crop-picker) to provide image selection.
 
 <p align="center">
-<img src="./ios.gif" alt="Image factory" width="442">
-<img src="./android.gif" alt="Image factory">
+<img src="https://raw.githubusercontent.com/wiki/InterfaceKit/react-native-image-picker-form/images/ios.gif" alt="Image factory" width="442">
+<img src="https://raw.githubusercontent.com/wiki/InterfaceKit/react-native-image-picker-form/images/android.gif" alt="Image factory">
 </p>
 
 ## Getting started
