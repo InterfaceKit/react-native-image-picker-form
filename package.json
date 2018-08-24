@@ -1,18 +1,15 @@
 {
   "name": "react-native-image-picker-form",
-  "version": "0.2.2",
-  "description":
-    "A React Native component factory to use with tcomb-form-native. Currently using react-native-image-crop-picker to provide image selection.",
+  "version": "0.2.3",
+  "description": "A React Native component factory to use with tcomb-form-native. Currently using react-native-image-crop-picker to provide image selection.",
   "author": "Antonio Moreno Valls <amoreno@apsl.net>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url":
-      "git+https://github.com/InterfaceKit/react-native-image-picker-form.git"
+    "url": "git+https://github.com/InterfaceKit/react-native-image-picker-form.git"
   },
   "bugs": {
-    "url":
-      "https://github.com/InterfaceKit/react-native-image-picker-form/issues"
+    "url": "https://github.com/InterfaceKit/react-native-image-picker-form/issues"
   },
   "tags": [
     "react",
@@ -24,10 +21,15 @@
     "form",
     "android"
   ],
-  "keywords": ["react", "react-native", "react-component", "ios", "android"],
+  "keywords": [
+    "react",
+    "react-native",
+    "react-component",
+    "ios",
+    "android"
+  ],
   "scripts": {
-    "prettier":
-      "prettier --single-quote --print-width 81 --write index.js lib/Stepper.js",
+    "prettier": "prettier --single-quote --print-width 81 --write index.js lib/Stepper.js",
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest"
   },
