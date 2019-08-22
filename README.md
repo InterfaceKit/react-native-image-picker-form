@@ -57,7 +57,10 @@ class App extends React.Component<Props, State> {
               // Used on Android to style BottomSheet
               style: {
                 titleFontFamily: 'Roboto'
-              }
+              }, //optional
+              containerStyle:{marginBottom: 10}, //optional
+              editable: true, //optional, default true
+              defaultUri: 'https://images.pexels.com/photos/736230/pexels-photo-736230.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
             },
             error: 'No image provided',
             factory: ImageFactory
